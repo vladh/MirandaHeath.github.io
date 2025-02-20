@@ -3260,7 +3260,6 @@ input, select, textarea {
 			position: relative;
 			width: 60rem;
 			max-width: 100%;
-			background-color: inherit;
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
 			z-index: 1;
@@ -7844,7 +7843,6 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background-color: inherit;
 		width: 100%;
 		overflow-x: hidden;
 	}
@@ -8195,3 +8193,13 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+
+body {
+	background-image: url(/images/banner.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.content {
+	background-color: white;
+}
